@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import bannerImage from "../../assets/images/Banner.png";
+import Map from "../../components/ggMap/Map";
 import { Spinner } from "@material-tailwind/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneVolume, faEnvelope, faLocation} from "@fortawesome/free-solid-svg-icons";
@@ -141,8 +142,8 @@ function Contact() {
             </div>
           </form>
         </div>
-        <div>
-          <h1>API GG MAP</h1>
+        <div className="pl-20 mt-20">
+            <img src="https://img.freepik.com/free-vector/hand-drawn-contact-information-background-template_23-2148191423.jpg?w=740&t=st=1698172115~exp=1698172715~hmac=b72333bb63f8444776602a4a18d1a555f763bd0f462dad53c96e7085e1fff488" alt="" />
         </div>
       </div>
       <div class="grid grid-cols-3 gap-4 px-24 mx-20 mb-20 ">

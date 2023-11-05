@@ -53,7 +53,7 @@ function SignUp() {
             <div className="">
               <h2 className="font-semibold">
                 Chào Mừng Bạn Đến <br />
-                <Link to="/" className="text-lg text-primaryColor font-bold ">
+                <Link to="/" className="text-2xl text-primaryColor font-bold ">
                   ProHealth
                 </Link>
               </h2>

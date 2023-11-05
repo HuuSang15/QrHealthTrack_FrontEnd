@@ -41,7 +41,7 @@ function Login() {
             <div className="">
               <h2 className="font-semibold">
                 Chào Mừng Bạn Đến <br />
-                <Link to="/" className="text-lg text-primaryColor font-bold ">ProHealth</Link>
+                <Link to="/" className="text-2xl text-primaryColor font-bold ">ProHealth</Link>
               </h2>
             </div>
             <div className="">
@@ -103,7 +103,7 @@ function Login() {
               </div>
             </div>
             <div className=" text-right mt-2 mb-9 ">
-              <Link to="/forgot-password" className="text-lg text-primaryColor">
+              <Link to="/forgot-password" className="text-lg font-medium text-primaryColor">
                 Quên mật khẩu?
               </Link>
             </div>
@@ -118,8 +118,6 @@ function Login() {
             </button>
           </form>
           </div>
-          
-          
         </div>
       </div>
     </div>

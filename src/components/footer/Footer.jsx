@@ -6,7 +6,7 @@ const Footer = () => {
     
     <footer class="bg-white dark:bg-gray-900">
       <hr class="w-full h-[2px] bg-primaryColor mt-8 mb-4"></hr>
-      <div class=" mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class=" mx-auto w-full max-w-screen-xl py-6 lg:py-8">
         <div class="md:flex md:justify-between">
 
           <div class="mb-6 md:mb-0">
@@ -111,7 +111,7 @@ const Footer = () => {
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}
             <a href="https://flowbite.com/" class="hover:underline">
-              Flowbite™
+              ProHealth™
             </a>
             . All Rights Reserved.
           </span>
