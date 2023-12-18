@@ -43,7 +43,7 @@ const Categories = () => {
               <span className="">Các Bài Tập Cải Thiện</span>
               <div className="container mx-auto mt-10 text-center">
                 <Link
-                  to="/"
+                  to="/healthExercises"
                   className="inline-block px-3 py-2 rounded-md text-sm  border-primaryColor font-semibold transition-all bg-primaryColor  hover:shadow-primaryColor hover:shadow "
                 >
                   Bắt Đầu
@@ -68,7 +68,7 @@ const Categories = () => {
               </div>
               <div className="container mx-auto mt-10 text-center">
                 <Link
-                  to="/"
+                  to="/menu-food"
                   className="inline-block px-3 py-2 rounded-md text-sm  border-primaryColor font-semibold transition-all bg-primaryColor  hover:shadow-primaryColor hover:shadow "
                 >
                   Bắt Đầu

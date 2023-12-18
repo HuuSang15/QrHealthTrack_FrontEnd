@@ -1,6 +1,6 @@
 import icons from "./icon"
 
-const  {HiOutlineUsers} = icons
+const  {HiOutlineUsers,HiOutlineHeart,HiOutlineLockClosed,HiOutlineBookmark} = icons
 export const Menusidebar = [
     {
     
@@ -9,12 +9,24 @@ export const Menusidebar = [
         icons: <HiOutlineUsers size={23}/>
     },
     {
+        path: '/favorites',
+        text: 'Yêu thích',
+        icons: <HiOutlineHeart size={23} />
+    },
+    {
     
         path: '/changePassword',
         text: 'Thay Đổi Mật Khẩu ',
-        icons: <HiOutlineUsers size={23}/>
+        icons: <HiOutlineLockClosed size={23}/>
     },
-  
+    {
+    
+        path: '/contact',
+        text: 'Liên Hệ',
+        icons: <HiOutlineBookmark size={23}/>
+    },
+    
+    
    
 ]
 export default Menusidebar

@@ -75,6 +75,12 @@ const Header = () => {
                         Hồ Sơ Cá Nhân
                       </Link>
                     </li>
+                    <li className="flex items-center hover:bg-primaryColor hover:text-white rounded">
+                      <FontAwesomeIcon className="mx-3" icon={faUser} />
+                      <Link to="/favourite" className="block pr-4 py-2">
+                        Yêu Thích
+                      </Link>
+                    </li>
 
                     <li className="flex items-center hover:bg-primaryColor hover:text-white rounded">
                       <FontAwesomeIcon
@@ -197,10 +203,18 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      to="/dich-vu-2"
+                      to="/menu-food"
                       class="block py-2 text-gray-700 hover:text-primaryColor"
                     >
                       Danh Mục Thực Đơn
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/bloodDonation"
+                      class="block py-2 text-gray-700 hover:text-primaryColor"
+                    >
+                      Đăng Kí Hiến Máu
                     </Link>
                   </li>
                 </ul>
