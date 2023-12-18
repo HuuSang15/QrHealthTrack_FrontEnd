@@ -1,7 +1,7 @@
-import { HiOutlineUsers ,HiOutlineChatAlt,HiOutlineHeart,HiOutlineBookmark,HiOutlineClipboardList,HiOutlinePencilAlt} from 'react-icons/hi'
+import { HiOutlineUsers ,HiOutlineChatAlt,HiOutlineHeart,HiOutlineBookmark,HiOutlineClipboardList,HiOutlinePencilAlt, HiOutlineLockClosed } from 'react-icons/hi'
 
 
 const icons ={
-    HiOutlineUsers,HiOutlineChatAlt,HiOutlineHeart,HiOutlineBookmark,HiOutlineClipboardList,HiOutlinePencilAlt
+    HiOutlineUsers,HiOutlineChatAlt,HiOutlineHeart,HiOutlineBookmark,HiOutlineClipboardList,HiOutlinePencilAlt,HiOutlineLockClosed
 }
 export default icons;
